@@ -1,0 +1,167 @@
+:root{
+    --html-fundo: #fb7901;
+
+    --label-fundo: #11314F ;
+    --label-cor: #fff ;
+
+    --input-fundo: #fff;
+
+    --fundo-resultado: #FFFFFF;
+
+    --resultado-input: rgb(247, 251, 255, 45%);
+
+    --footer-fundo: #11314F;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh; 
+    background-color: var(--html-fundo);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+#logoToodoBe{
+    width: 266px;
+    height: 59px;
+    padding: 1em;
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+
+.box-preencher{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 19px;
+}
+
+.box-resultado{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-parcela{
+    width: 600px;
+    height: 3.125rem;
+    display: flex;
+}
+
+.input-parcela:first-child{
+    margin: 11.313rem 0 0 0;
+}
+
+.label-input{
+    width: 16.563rem;
+    height: 100%;
+    color: var(--label-cor);
+    background-color: var(--label-fundo);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 0 0;
+}
+
+.input-preencher{
+    width: 20.938rem;
+    height: 100%;
+    border: none;
+    background-color: var(--input-fundo);
+    border-radius: 0 50px 50px  0;
+    font-size: 20px;
+}
+
+.layout-resultado{
+    width: 45.313rem;
+    height: 44.375rem;
+    background-color: var(--fundo-resultado);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultado-titulo{
+    width: 18.75rem;
+    height: 2.813rem;
+    margin: 2rem 0 0 0;
+    background-color: #11314F;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.legenda-resultado{
+    width: 37.5rem;
+    height: 2.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #11314F;
+    color: white;
+    font-size: 24px;
+}
+
+.legenda-resultado:first-child{
+    margin: 5.375rem 0 0 0;
+}
+
+.resultado-item{
+    display: flex;
+    align-items: center;
+    width: 37.5rem;
+    height: 3.125rem;
+}
+
+.resultado-label{
+    width: 18.75rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.resultado-input{
+    width: 18.75rem;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    background-color: var(--resultado-input);
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--footer-fundo);
+}
