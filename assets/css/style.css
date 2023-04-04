@@ -61,13 +61,13 @@ main{
     justify-content: center;
 }
 
-.input-preencher{
+.box-input{
     width: 600px;
     height: 3.125rem;
     display: flex;
 }
 
-.input-parcela:first-child{
+.box-input:first-child{
     margin: 11.313rem 0 0 0;
 }
 
