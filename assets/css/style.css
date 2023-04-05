@@ -26,22 +26,26 @@ body{
     width: 100%;
     height: 100vh; 
     background-color: var(--html-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 header{
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 
 #logoToodoBe{
     width: 266px;
     height: 59px;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 main{
     width: 100%;
-    height: 80.1%;
+    height: 82.1%;
     display: flex;
 }
 
@@ -197,6 +201,8 @@ main{
 
 footer{
     width: 100%;
-    height: 100px;
+    height: 60px;
     background-color: var(--footer-fundo);
+    position:fixed ;
+    bottom: 0;
 }
