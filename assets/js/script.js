@@ -13,10 +13,11 @@ function calculaRenda(financiamento, prazo, juros){
     let jurosMensal = juros / 12
     let parcelaSemJuros = financiamento / prazo
 
-    let calc = (parcelaSemJuros * jurosMensal) + (parcelaSemJuros)
+    let calc = parcelaSemJuros + (parcelaSemJuros * jurosMensal) 
 
-    let rendaBruta = (calc * 100) / 30
-
-    console.log(rendaBruta)
+    let rendaBruta = (calc / 30) * 100
+    console.log(parcelaSemJuros)
+    console.log(calc)
+    //console.log(rendaBruta)
 
 }
