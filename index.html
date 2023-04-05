@@ -16,15 +16,37 @@
             
     <section class="box-preencher">
 
+        <div class="box-select">
+            <label for="select_app" class="label-select">Qual aplicação gostaria ?</label>
+            <select id="select_app" class="select-preencher">
+            <option disabled selected>Selecione uma opção</option>
+            <option value="">Calcular renda</option>
+            <option value="">Calcular financiamento máximo</option>
+
+            </select>
+            </div>
+
         <div class="box-input">
-        <label for="input_parcela" class="label-input">Valor de Parcela</label>
+            <label for="input_financiamento" class="label-input">Valor de financiamento</label>
+            <input type="number" id="input_financiamento" class="input-preencher">
+            </div>
+
+        <div class="box-input">
+        <label for="input_parcela" class="label-input">Valor de parcela</label>
         <input type="number" id="input_parcela" class="input-preencher">
         </div>
+
+        <div class="box-input">
+            <label for="input_prazo" class="label-input">Prazo</label>
+            <input type="number" id="input_prazo" class="input-preencher">
+            </div>
 
         <div class="box-input">
         <label for="input_juros" class="label-input">Taxa de juros [%]</label>
         <input type="number" id="input_juros" class="input-preencher">
         </div>
+
+        <button class="box-botao" id="botao_preencher">Calcular</button>
 
     </section>
 
