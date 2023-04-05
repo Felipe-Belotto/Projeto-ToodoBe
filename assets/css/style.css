@@ -6,6 +6,9 @@
 
     --input-fundo: #fff;
 
+    --botao-cor:#fff;
+    --botao-fundo:#11314F;
+
     --fundo-resultado: #FFFFFF;
 
     --resultado-input: rgb(247, 251, 255, 45%);
@@ -61,14 +64,17 @@ main{
     justify-content: center;
 }
 
+.box-select{
+    width: 600px;
+    height: 3.125rem;
+    margin: 11.313rem 0 0 0;
+    display: flex;
+}
+
 .box-input{
     width: 600px;
     height: 3.125rem;
     display: flex;
-}
-
-.box-input:first-child{
-    margin: 11.313rem 0 0 0;
 }
 
 .label-input{
@@ -83,6 +89,27 @@ main{
     border-radius: 20px 0 0 0;
 }
 
+.label-select{
+    width: 16.563rem;
+    height: 100%;
+    color: var(--label-cor);
+    background-color: var(--label-fundo);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 0 0;
+}
+
+.select-preencher{
+    width: 20.938rem;
+    height: 100%;
+    border: none;
+    background-color: var(--input-fundo);
+    border-radius: 0 50px 50px  0;
+    font-size: 20px;
+}
+
 .input-preencher{
     width: 20.938rem;
     height: 100%;
@@ -90,6 +117,14 @@ main{
     background-color: var(--input-fundo);
     border-radius: 0 50px 50px  0;
     font-size: 20px;
+}
+
+.box-botao{
+    width: 12.5rem;
+    height: 2.188rem;
+    background-color: var(--botao-fundo);
+    color: var(--botao-cor);
+    border-radius: 15px;
 }
 
 .layout-resultado{
