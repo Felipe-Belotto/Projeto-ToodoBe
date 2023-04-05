@@ -1,0 +1,1 @@
+const parcela = document.querySelector("#input_parcela")
